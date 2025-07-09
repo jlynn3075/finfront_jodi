@@ -97,19 +97,3 @@ steps:
         --src-path deploy.zip \
         --type zip
   displayName: 'Deploy Artifact to Azure Web App'
-
-
-trigger:
-- main
-
-pool:
-  vmImage: ubuntu-latest
-
-steps:
-- script: echo Hello, world!
-  displayName: 'Run a one-line script'
-
-- script: |
-    echo Add other tasks to build, test, and deploy your project.
-    echo See https://aka.ms/yaml
-  displayName: 'Run a multi-line script'
