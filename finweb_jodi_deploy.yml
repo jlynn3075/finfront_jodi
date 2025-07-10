@@ -9,7 +9,7 @@ variables:
   - name: projectName
     value: 'Training-Student-005'            # <-- Update this
   - name: buildPipelineName
-    value: 'finweb_jodi_deploy.yml'          # <-- Update this
+    value: 'finweb_jodi_build2.yml'          # <-- Update this
   - name: artifactName
     value: 'frontend'        
   - name: targetFile
